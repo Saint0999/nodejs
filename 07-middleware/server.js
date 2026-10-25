@@ -1,7 +1,10 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const {logger, logEvents} = require('./middleware/logEvents');
 const PORT = process.env.PORT || 3500;
+
+app.use(logger);
 
 // built-in middleware to handle urlencoded data
 app.use(express.urlencoded({ extended: false }));
