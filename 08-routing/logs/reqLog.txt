@@ -21,3 +21,4 @@
 20261025	14:40:38	675ee421-93cd-421e-8704-2d526970a211	GET	undefined	/css/style.css
 20261025	14:44:31	c83193b1-2c3b-4dae-834c-289fd3cab3a8	GET	undefined	/
 20261025	14:44:31	453f35eb-c757-433f-911a-6d89b4f59018	GET	undefined	/css/style.css
+20261026	14:15:30	c905be10-0a95-468b-b55a-689d271ba511	GET	undefined	/subdir
