@@ -21,6 +21,11 @@ app.use(express.urlencoded({ extended: false }));
 // built-in middleware for json 
 app.use(express.json());
 
+//routes
+app.use('/', require('./routes/root'));
+app.use('/register', require('./routes/register'));
+app.use('/employees', require('./routes/api/employees'));
+
 //serve static files
 app.use(express.static(path.join(__dirname, '/public')));
 

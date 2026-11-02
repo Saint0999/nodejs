@@ -1,5 +1,5 @@
 const usersDB = {
-    users: require('../model/user.json'),
+    users: require('../model/users.json'),
     setUser: function(data) {this.users = data}
 };
 const fsPromises = require('fs').promises;
